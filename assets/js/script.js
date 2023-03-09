@@ -76,8 +76,6 @@ function generatePassword() {
     finalPass = finalPass + character;
   }
   
-  console.log(finalPass);
-  
   return `Your password is ${finalPass}`;
   
 }
